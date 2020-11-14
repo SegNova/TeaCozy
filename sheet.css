@@ -1,0 +1,78 @@
+/*Global*/
+html{
+    background-color: black;
+    color:white;
+    font-family:"Helvetica",sans-serif;
+    max-width: 100%;
+}
+/*header*/
+.header{
+    display: flex;
+    border-bottom: solid;
+    border-color: white;
+    border-width: thin;
+    position: fixed;
+    background-color: black;
+    z-index: 139;
+    width: 99%;
+    top:0px;
+}
+.logo{
+    width:20%;
+}
+.logo img{
+    height:50px;
+    width: 156px;;
+    padding:1px
+}
+.menu{
+    width:80%;
+    color:white;
+}
+#menu-set{
+    display: flex;
+    float:right;
+}
+#menu-set li{
+    list-style:none;
+    padding-left:20px;
+    padding-right:5px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+/*Our Mission*/
+.ourMis #Ourpic{
+    background-image: url("img/img-mission-background.webp");
+    height:700px;
+    margin: 0 65px;
+    display:flow-root;
+    opacity: 0.9;
+}
+
+.quote{
+    background-color:black;
+    text-align: center;
+    margin-top:32%;
+}
+
+.quote h1{
+    padding-top: 10px;
+    font-weight: 900;
+}
+
+.quote h3{
+    padding-top:10px;
+    font-weight: 900;
+}
+
+/*Tea of the Month*/
+
+.teaspec{
+    display: flex;
+}
+
+.teaspec img{
+    display: block;
+    height: 200px;
+}
