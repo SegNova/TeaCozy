@@ -68,11 +68,62 @@ html{
 
 /*Tea of the Month*/
 
+.title{
+    text-align:center;
+    margin-top:70px;
+}
+
 .teaspec{
     display: flex;
+    flex-flow:wrap;
+    margin:0px 75px;
+}
+
+.img-event{
+    margin:0px 40px;
+}
+
+#secondSec{
+    margin:0px 1px;
+    padding-left: 175px;
 }
 
 .teaspec img{
     display: block;
     height: 200px;
+}
+
+/*Location*/
+.location{
+    background-image:url("/img/img-locations-background.webp");
+    height:567px;
+    margin: 0 65px;
+    display:flow-root;
+    opacity: 0.8;
+}
+
+.allTxt{
+    text-align: center;
+    margin-top:45px;
+}
+.locAddr{
+    display:flex;
+    margin-left:80px;
+}
+
+.city{
+    background-color:black;
+    margin:56px;
+    padding:10px;
+    width:20%;
+}
+
+.city p{
+    font-size:25px;
+}
+
+/*Contact Info*/
+
+.contact{
+    text-align: center;
 }
